@@ -573,17 +573,39 @@
 
         /* Theater Mode */
         .app.theater {
-            grid-template-columns: 0 1fr 0;
+            grid-template-columns: 1fr;
         }
 
         .app.theater .sidebar,
         .app.theater .stats-sidebar {
-            display: none;
+            display: none !important;
+        }
+
+        .app.theater .main {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            padding: 0;
         }
 
         .app.theater .video-container {
-            aspect-ratio: auto;
-            height: 70vh;
+            flex: 1;
+            height: auto;
+            aspect-ratio: 16/9;
+        }
+
+        .app.theater .controls-section {
+            background: var(--surface);
+            padding: 20px;
+            border-top: 1px solid var(--border);
+        }
+
+        .app.theater .lesson-info h2 {
+            margin-bottom: 12px;
+        }
+
+        .app.theater .continue-banner {
+            margin-bottom: 15px;
         }
 
         /* Welcome */
