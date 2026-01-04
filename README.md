@@ -1,4 +1,4 @@
-# � VideoVault
+# 🎬 VideoVault
 
 A beautiful, locally-hosted video player for your personal video library with progress tracking, playback controls, and intelligent organization. Perfect for organizing and watching your downloaded videos with a professional interface.
 
