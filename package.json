@@ -1,0 +1,34 @@
+{
+    "name": "videovault",
+    "version": "1.0.0",
+    "description": "A beautiful, locally-hosted video player for organizing and watching your video library with progress tracking",
+    "keywords": [
+        "video-player",
+        "video-library",
+        "local-player",
+        "video-organization",
+        "progress-tracking",
+        "html5-video"
+    ],
+    "author": "avartan007",
+    "license": "MIT",
+    "main": "server.js",
+    "homepage": "https://github.com/avartan007/VideoVault",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/avartan007/VideoVault.git"
+    },
+    "bugs": {
+        "url": "https://github.com/avartan007/VideoVault/issues"
+    },
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+        "node": ">=12.0.0"
+    },
+    "dependencies": {
+        "express": "^4.18.2"
+    }
+}
